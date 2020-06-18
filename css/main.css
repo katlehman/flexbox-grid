@@ -117,19 +117,30 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  align-items: center;
+  align-items: top;
   color: #fff;
   display: flex;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  background-color: #008B8B;
+  flex-wrap: wrap;
+  height: 500px;
   justify-content: center;
+  padding: 1em;
   width: 30%;
 }
 
+h3 {
+  color: #fff;
+  font-size: 2em;
+  line-height: 1.5em;
+  font-weight: 900;
+}
 
-
+p, li {
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 400;
+}
 
 /* ==========================================================================
    Helper classes
